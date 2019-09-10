@@ -51,6 +51,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'django_week.urls'
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -75,8 +77,9 @@ WSGI_APPLICATION = 'django_week.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'djongo',
+        'NAME' : 'my_database',
+        'HOST': 'mongodb://db:27017/my_database'
     }
 }
 
