@@ -2,7 +2,12 @@
 
 JeanPaul / Martin / Thomas / Jesse
 
-###### How to launch
+###### Requirements :
+
+Docker<br>
+Docker-compose<br>
+
+###### How to launch :
 
 ```
 git clone https://github.com/jgonneau/django_week.git DjangoWeekProjectChat
