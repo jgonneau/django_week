@@ -17,7 +17,7 @@ services:
       - db
   back:
     build: .
-    command: bash -c "pip install djongo && echo 'y' && python manage.py runserver 0.0.0.0:8000"
+    command: bash -c "python manage.py runserver 0.0.0.0:8000"
     volumes:
       - ./back:/code
     ports:
