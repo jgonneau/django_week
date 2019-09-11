@@ -8,7 +8,7 @@ class MessageModel(models.Model):
     idUser = models.TextField()
     idChannel = models.TextField()
 
-class MessageSerializer(serializers.HyperlinkedModelSerializer):
+class MessageSerializer(serializers.Serializer):
     class Meta:
         model = MessageModel
         fields = ['content', 'idUser', 'idChannel']

@@ -6,6 +6,7 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 RUN pip install djongo
 RUN pip install djangorestframework
+RUN pip install django-rest-knox
 RUN pip install markdown
 RUN pip install django-filter
 COPY . /code/
