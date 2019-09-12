@@ -5,5 +5,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('pokemon.urls'))
+    path('', include('message.urls')),
+    path('', include('channel.urls')),
+    path('', include('userMessage.urls')),
 ]
