@@ -5,9 +5,10 @@ JeanPaul / Martin / Thomas / Jesse
 ###### How to launch
 
 ```
-git clone https://github.com/jgonneau/django_week.git DjangoWeekProjectChat
+git clone https://github.com/jgonneau/django_week.git
+cd django_week
+./dockrun.sh install
 
-cd DjangoWeekProjectChat
 ```
 
 ```
