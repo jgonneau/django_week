@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecc56ab9-85b7-4dcf-9beb-da1213a2ab61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/channel/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/channel/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/channel/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/module/pokemon/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/module/pokemon/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/module/pokemon/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/userMessage/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/userMessage/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/userMessage/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dockrun.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/django_week/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/django_week/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/django_week/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/django_week/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/message/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/migrations/0002_auto_20190911_1723.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/migrations/0002_auto_20190911_1723.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/message/serializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/message/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pokemon/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/back/module/pokemon/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoWeek_back" beforeDir="false" afterPath="$PROJECT_DIR$/djangoWeek_back" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoWeek_front" beforeDir="false" afterPath="$PROJECT_DIR$/djangoWeek_front" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1QeKihO2iCb3lA1kzFJxqZQP252" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,14 +37,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/back/module" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/back/userMessage" />
       <recent name="$PROJECT_DIR$/back/channel" />
       <recent name="$PROJECT_DIR$/back/message" />
       <recent name="$PROJECT_DIR$/back/django_week" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/back/module" />
     </key>
   </component>
   <component name="RunDashboard">

@@ -1,0 +1,6 @@
+[submodule "djangoWeek_back"]
+	path = djangoWeek_back
+	url = https://github.com/Jesselhuillier/djangoWeek_back.git
+[submodule "djangoWeek_front"]
+	path = djangoWeek_front
+	url = https://github.com/Jesselhuillier/djangoWeek_front.git
