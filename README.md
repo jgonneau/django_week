@@ -7,21 +7,13 @@ JeanPaul / Martin / Thomas / Jesse
 ```
 git clone https://github.com/jgonneau/django_week.git
 cd django_week
-./dockrun.sh install
-
-```
-
-```
+./dockrun.sh
 sudo docker-compose up 
-```
-OR
-```
-sudo docker-compose up -d (-d for running processes in background)
-```
 
 Access :
 
 ```
+http://0.0.0.0:8000/
 localhost:8888 (front, Angular)
 localhost:8000 (back, Python/Django)
 ```
