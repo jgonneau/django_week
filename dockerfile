@@ -9,4 +9,5 @@ RUN pip install djangorestframework
 RUN pip install django-rest-knox
 RUN pip install markdown
 RUN pip install django-filter
+RUN pip install django-cors-headers
 COPY . /code/
